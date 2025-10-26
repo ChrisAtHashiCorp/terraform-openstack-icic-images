@@ -2,6 +2,11 @@
 # image resource for outputting. 
 
 locals {
+  almalinux-images-output = {
+    for image, properties in openstack_images_image_v2.almalinux : image => {
+      for property, value in properties : property => value if property != "image_source_password"
+    }
+  }
   rockylinux-images-output = {
     for image, properties in openstack_images_image_v2.rockylinux : image => {
       for property, value in properties : property => value if property != "image_source_password"
@@ -13,6 +18,10 @@ locals {
       for property, value in properties : property => value if property != "image_source_password"
     }
   }
+}
+
+output "almalinux-images" {
+  value = local.almalinux-images-output[*]
 }
 
 output "rockylinux-images" {
