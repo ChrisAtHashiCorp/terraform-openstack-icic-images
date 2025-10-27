@@ -1,5 +1,6 @@
 variable "architecture" {
   type = string
+  default = "s390x"
 }
 
 variable "hypervisor_type" {
