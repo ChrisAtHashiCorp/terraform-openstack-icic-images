@@ -3,13 +3,13 @@
 Quickly and reproducably deploy official base cloud images onto ICIC for
 several Linux distros.
 
-Currently this module supports deploying the following images:
+Currently this module supports deploying the following operating systems (and the default versions to install):
 - Alma Linux
-  - 9.6
-  - 10.0
+  - 9.7
+  - 10.1
 - Rocky Linux
-  - 9.6
-  - 10.0
+  - 9.7
+  - 10.1
 - Ubuntu
   - 22.04 LTS (Jammy)
   - 24.04 LTS (Noble)
