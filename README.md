@@ -8,7 +8,7 @@ Currently this module supports deploying the following operating systems (and th
   - 9.7
   - 10.1
 - Rocky Linux
-  - 9.7
+  - 9.6
   - 10.1
 - Ubuntu
   - 22.04 LTS (Jammy)
