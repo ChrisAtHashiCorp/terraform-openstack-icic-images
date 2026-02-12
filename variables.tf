@@ -71,5 +71,5 @@ variable "ubuntu_defaults" {
 
 variable "ubuntu_versions" {
   type    = list(string)
-  default = ["22.04", "24.04"]
+  default = ["24.04", "25.10"]
 }
