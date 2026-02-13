@@ -5,13 +5,13 @@ several Linux distros.
 
 Currently this module supports deploying the following operating systems (and the default versions to install):
 - Alma Linux
+  - 10.1
   - 9.7
-  - 10.1
 - Rocky Linux
-  - 9.6
   - 10.1
+  - 9.7
 - Ubuntu
-  - 22.04 LTS (Jammy)
+  - 25.10 (Questing)
   - 24.04 LTS (Noble)
 
 ## Requirements

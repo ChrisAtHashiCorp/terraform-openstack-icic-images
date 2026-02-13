@@ -1,5 +1,5 @@
 variable "architecture" {
-  type = string
+  type    = string
   default = "s390x"
 }
 
@@ -43,7 +43,7 @@ variable "almalinux_defaults" {
 
 variable "almalinux_versions" {
   type    = list(string)
-  default = ["9.7", "10.1"]
+  default = ["10.1", "9.7"]
 }
 
 # Rocky Linux specifc variables
@@ -57,7 +57,7 @@ variable "rockylinux_defaults" {
 
 variable "rockylinux_versions" {
   type    = list(string)
-  default = ["9.6", "10.1"]
+  default = ["10.1", "9.7"]
 }
 
 # Ubuntu specific variables
@@ -71,5 +71,5 @@ variable "ubuntu_defaults" {
 
 variable "ubuntu_versions" {
   type    = list(string)
-  default = ["24.04", "25.10"]
+  default = ["25.10", "24.04"]
 }
