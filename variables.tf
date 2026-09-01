@@ -43,7 +43,7 @@ variable "almalinux_defaults" {
 
 variable "almalinux_versions" {
   type    = list(string)
-  default = ["10.1", "9.7"]
+  default = ["10.2", "9.8"]
 }
 
 # Rocky Linux specifc variables
@@ -57,7 +57,7 @@ variable "rockylinux_defaults" {
 
 variable "rockylinux_versions" {
   type    = list(string)
-  default = ["10.1", "9.7"]
+  default = ["10.2", "9.8"]
 }
 
 # Ubuntu specific variables
